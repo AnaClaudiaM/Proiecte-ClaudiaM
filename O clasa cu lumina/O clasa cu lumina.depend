@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1554063142 source:c:\users\claudia\desktop\o clasa cu lumina\main.cpp
+	<iostream>
+	"BecReglabil.h"
+
+1554058513 c:\users\claudia\desktop\o clasa cu lumina\include\becreglabil.h
+
+1554063226 source:c:\users\claudia\desktop\o clasa cu lumina\src\becreglabil.cpp
+	"BecReglabil.h"
+	<iostream>
+
+1554068656 source:d:\scoala it\o clasa cu lumina\src\becreglabil.cpp
+	"BecReglabil.h"
+	<iostream>
+
+1554058513 d:\scoala it\o clasa cu lumina\include\becreglabil.h
+
+1554067240 source:d:\scoala it\o clasa cu lumina\main.cpp
+	<iostream>
+	"BecReglabil.h"
+
