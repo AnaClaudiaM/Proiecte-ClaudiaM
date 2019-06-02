@@ -14,10 +14,9 @@ class Bazin
         Bazin();
         virtual ~Bazin();
         void Meniu_principal();
-        void AdaugaAntrenor();
-        void StergeAntrenor();
+        void Adauga_antrenor();
         void Afiseaza_lista_antrenori();
-        int StergereAntrenor(int n);
+        int Sterge_antrenor(int n);
         void Iesire();
 
 

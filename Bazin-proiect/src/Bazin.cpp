@@ -69,7 +69,7 @@ void Bazin::Adauga_antrenor()
    listaA.push_back(antrenor);
    cout << endl;
 }
-void Bazin:: AfiseazaLista()
+void Bazin:: Afiseaza_lista_antrenori()
 {
     unsigned int size = listaA.size();
     for(unsigned int i=0; i<size; i++)
