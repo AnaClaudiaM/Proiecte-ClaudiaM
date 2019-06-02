@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1514144174 source:c:\users\claudia\desktop\bazin-proiect\main.cpp
+	<iostream>
+
+1559467852 source:c:\users\claudia\desktop\bazin-proiect\src\antrenor.cpp
+	"Antrenor.h"
+
+1559467852 c:\users\claudia\desktop\bazin-proiect\include\antrenor.h
+
