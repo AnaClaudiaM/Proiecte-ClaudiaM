@@ -74,8 +74,8 @@ void Bazin:: Afiseaza_lista_antrenori()
     unsigned int size = listaA.size();
     for(const auto& antr:listaA)
    {
-        cout << " Nume antrenor : " << antr.getNume << endl;
-        cout << " Id antrenor : " << antr.getCod() << endl;
+        cout << " Nume antrenor : " << antr.getNume() ;
+        cout << " Id antrenor : " << antr.getCod() ;
     }
 }
 

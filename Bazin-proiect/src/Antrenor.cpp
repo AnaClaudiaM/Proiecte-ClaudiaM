@@ -13,6 +13,8 @@ Antrenor::Antrenor(string numeAntrenor,int codAntrenor)
     cod_unic = codAntrenor;
 }
 
+
+
 Antrenor::~Antrenor()
 {
     //dtor

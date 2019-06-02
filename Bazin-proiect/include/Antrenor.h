@@ -12,6 +12,15 @@ class Antrenor
         int Afisare_ore_antrenor;
         void Adauga_cursant();
         void Sterge_cursant();
+        std::string getNume()
+        {
+            return nume_antrenor;
+        }
+        int getCod()
+        {
+            return cod_unic;
+        }
+
 
     protected:
 
