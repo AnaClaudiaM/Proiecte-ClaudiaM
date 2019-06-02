@@ -6,6 +6,7 @@
 #include<vector>
 #include<limits>
 #include<string>
+#include<algorithm>
 using namespace std;
 
 
@@ -72,7 +73,7 @@ void Bazin::Adauga_antrenor()
 void Bazin:: Afiseaza_lista_antrenori()
 {
     unsigned int size = listaA.size();
-    for(const auto& antr:listaA)
+    for(auto& antr:listaA)
    {
         cout << " Nume antrenor : " << antr.getNume() ;
         cout << " Id antrenor : " << antr.getCod() ;
@@ -80,13 +81,21 @@ void Bazin:: Afiseaza_lista_antrenori()
 }
 
 //void Bazin::Sterge_antrenor()
-//{
-//
-//    cout << " Lista antrenorilor si codurile lor : " <<endl;
-//    AfiseazaLista(listaA);
+//{   int nr_antrenor;
+//    cout << " Lista antrenorilor si codurile lor : " << endl;
+//    Afiseaza_lista_antrenori();
 //    cout << " Introduceti numarul antrenorului de sters " << endl;
-//    listaA.pop_back()
-
+//    cin >> nr_antrenor;
+//   vector<Antrenor>::iterator it;
+//    it = find(listaA.begin(), listaA.end(),nr_antrenor);
+//    if (it != listaA.end())
+//    cout << "Element found in ListaAntrenori: " << *it << endl;
+//    else
+//    cout << "Element not found in ListaAntrenori\n";
+//    listaA.erase(it);
+//
+//
+//}
 
 
 
