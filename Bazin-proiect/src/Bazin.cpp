@@ -40,14 +40,14 @@ void Bazin::Meniu_principal()
         switch (optiune)
         {
             case 1: Adauga_antrenor();break;
-            case 2: Sterge_antrenor();break;
-            case 3: Afisare_ore_antrenor();break;
-            case 4: Adauga_cursant();break;
-            case 5: Sterge_cursant();break;
-            case 6: Vizualizare_cursanti()break;
-            case 0:
-                return 0;
-                break;
+            //case 2: Sterge_antrenor();break;
+            //case 3: Afisare_ore_antrenor();break;
+//            case 4: Adauga_cursant();break;
+//            case 5: Sterge_cursant();break;
+//            case 6: Vizualizare_cursanti()break;
+//            case 0:
+//                return 0;
+//                break;
             default:
                 cout << endl;
                 cout << " Optiunea nu este valida. \n" << endl;
@@ -72,23 +72,23 @@ void Bazin::Adauga_antrenor()
 void Bazin:: Afiseaza_lista_antrenori()
 {
     unsigned int size = listaA.size();
-    for(unsigned int i=0; i<size; i++)
-    {
-        cout << " Nume antrenor : " << listaA[i].getNume() << endl;
-        cout << " Id antrenor : " << listaA[i].getCod() << endl;
+    for(const auto& antr:listaA)
+   {
+        cout << " Nume antrenor : " << antr.getNume << endl;
+        cout << " Id antrenor : " << antr.getCod() << endl;
     }
 }
 
-void Bazin::Sterge_antrenor()
-{
+//void Bazin::Sterge_antrenor()
+//{
+//
+//    cout << " Lista antrenorilor si codurile lor : " <<endl;
+//    AfiseazaLista(listaA);
+//    cout << " Introduceti numarul antrenorului de sters " << endl;
+//    listaA.pop_back()
 
-    cout << " Lista antrenorilor si codurile lor : " <<endl;
-    AfiseazaLista(listaA);
-    cout << " Introduceti numarul antrenorului de sters " << endl;
-    listaA.pop_back()
 
 
-}
 
 
 

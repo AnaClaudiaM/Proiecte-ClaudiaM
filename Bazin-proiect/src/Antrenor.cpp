@@ -1,6 +1,7 @@
 #include "Antrenor.h"
 #include<string>
 #include"Cursant.h"
+using namespace std;
 
 Antrenor::Antrenor()
 {

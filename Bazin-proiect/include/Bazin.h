@@ -16,13 +16,8 @@ class Bazin
         void Meniu_principal();
         void Adauga_antrenor();
         void Afiseaza_lista_antrenori();
-        int Sterge_antrenor(int n);
-        void Iesire();
-
-
-
-
-
+        //int Sterge_antrenor();
+        //void Iesire();
 
     protected:
 
