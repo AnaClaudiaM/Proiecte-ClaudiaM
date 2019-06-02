@@ -1,5 +1,6 @@
 #ifndef BAZIN_H
 #define BAZIN_H
+#include "Antrenor.h"
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -13,8 +14,10 @@ class Bazin
         Bazin();
         virtual ~Bazin();
         void Meniu_principal();
-        void Adauga_antrenor();
-        void Sterge_antrenor();
+        void AdaugaAntrenor();
+        void StergeAntrenor();
+        void Afiseaza_lista_antrenori();
+        int StergereAntrenor(int n);
         void Iesire();
 
 
@@ -25,9 +28,8 @@ class Bazin
     protected:
 
     private:
-        std::vector<Antrenor>listaA;
-        //std::string nume_antrenor;
-        //int cod_unic;
+        vector<Antrenor>listaA;
+
 };
 
 #endif // BAZIN_H

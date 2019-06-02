@@ -2,8 +2,16 @@
 1514144174 source:c:\users\claudia\desktop\bazin-proiect\main.cpp
 	<iostream>
 
-1559467852 source:c:\users\claudia\desktop\bazin-proiect\src\antrenor.cpp
+1559484080 source:c:\users\claudia\desktop\bazin-proiect\src\antrenor.cpp
 	"Antrenor.h"
+	<string>
+	"Cursant.h"
 
-1559467852 c:\users\claudia\desktop\bazin-proiect\include\antrenor.h
+1559504002 c:\users\claudia\desktop\bazin-proiect\include\antrenor.h
+	<string>
+
+1559483235 c:\users\claudia\desktop\bazin-proiect\include\cursant.h
+
+1559483235 source:c:\users\claudia\desktop\bazin-proiect\src\cursant.cpp
+	"Cursant.h"
 

@@ -7,7 +7,6 @@
 #include<limits>
 #include<string>
 using namespace std;
-Antrenor antrenor;
 
 
 Bazin::Bazin()
@@ -60,19 +59,34 @@ void Bazin::Meniu_principal()
 }
 
 void Bazin::Adauga_antrenor()
-{
+{ string nume;
+  int cod;
     cout << " Introduceti nume antrenor " << endl;
-    cin >> antrenor.nume_antrenor;
-    cout << " Introduceti cod antrenor " << endl ;
-    cin >> antrenor.cod_unic;
+   cin >> nume;
+   cout << " Introduceti cod antrenor " << endl ;
+   cin >> cod;
+   Antrenor antrenor(nume,cod);
+   listaA.push_back(antrenor);
+   cout << endl;
 }
+void Bazin:: AfiseazaLista()
+{
+    unsigned int size = listaA.size();
+    for(unsigned int i=0; i<size; i++)
+    {
+        cout << " Nume antrenor : " << listaA[i].getNume() << endl;
+        cout << " Id antrenor : " << listaA[i].getCod() << endl;
+    }
+}
+
 void Bazin::Sterge_antrenor()
 {
 
     cout << " Lista antrenorilor si codurile lor : " <<endl;
-    cout << listaA << endl;//trebuie afisat vectorul lisataA?
+    AfiseazaLista(listaA);
     cout << " Introduceti numarul antrenorului de sters " << endl;
-    cin >> antrenor.cod_unic;
+    listaA.pop_back()
+
 
 }
 

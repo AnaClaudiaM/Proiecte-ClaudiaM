@@ -1,11 +1,13 @@
 #ifndef ANTRENOR_H
 #define ANTRENOR_H
+#include<string>
 
 
 class Antrenor
 {
     public:
         Antrenor();
+        Antrenor(std::string,int);
         virtual ~Antrenor();
         int Afisare_ore_antrenor;
         void Adauga_cursant();
@@ -14,10 +16,10 @@ class Antrenor
     protected:
 
     private:
-        string nume_antrenor;
+        std::string nume_antrenor;
         int cod_unic;
         int ore;
-        vector <Cursant>client;
+        //std::vector <Cursant>client;
 
 };
 
