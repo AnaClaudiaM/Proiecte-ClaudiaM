@@ -7,7 +7,9 @@
 #include<limits>
 #include<string>
 #include<algorithm>
+#include"Cursant.h"
 using namespace std;
+Antrenor cursantAntrenor;
 
 
 Bazin::Bazin()
@@ -28,14 +30,14 @@ void Bazin::Meniu_principal()
         cout << endl;
         cout << " Optiuni disponibile : \n ";
         cout << endl;
-        cout << " 1 - Adauga antrenor .\n ";
-        cout << " 2 - Sterge antrenor. \n ";
-        cout << " 3 - Afisare ore antrenor.\n ";
-        cout << " 4 - Adauga cursant. \n ";
-        cout << " 5 - Sterge cursant. \n ";
-        cout << " 6 - Vizualizare cursanti potentiali.\n";
-        cout << " 0 - Iesire.\n ";
-        cout << " Introduceti optiunea dorita : " ;
+        cout << " 1 - Adauga antrenor \n ";
+        cout << " 2 - Sterge antrenor \n ";
+        cout << " 3 - Afisare ore antrenor \n ";
+        cout << " 4 - Adauga cursant \n ";
+        cout << " 5 - Sterge cursant \n ";
+        cout << " 6 - Vizualizare cursanti potentiali\n";
+        cout << " 0 - Iesire \n ";
+        cout << " Introduceti optiunea dorita :  ";
         cin >> optiune;
 
         switch (optiune)
@@ -43,7 +45,7 @@ void Bazin::Meniu_principal()
             case 1: Adauga_antrenor();break;
             case 2: Sterge_antrenor();break;
             //case 3: Afisare_ore_antrenor();break;
-//            case 4: Adauga_cursant();break;
+            case 4: cursantAntrenor.Adauga_cursant();break;
 //            case 5: Sterge_cursant();break;
 //            case 6: Vizualizare_cursanti()break;
 //            case 0:

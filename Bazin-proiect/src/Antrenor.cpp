@@ -1,6 +1,7 @@
 #include "Antrenor.h"
 #include<string>
 #include"Cursant.h"
+#include"Bazin.h"
 using namespace std;
 
 Antrenor::Antrenor()
@@ -14,12 +15,16 @@ Antrenor::Antrenor(string numeAntrenor,int codAntrenor)
 }
 void Antrenor::Adauga_cursant()
 {
+    Bazin antrenorLista;
     string numeCurs;
     cout << " Introduceti numele cursantului " << endl;
     cin >> numeCurs;
     Cursant cursant(numeCurs);
     client.push_back(cursant);
     cout << endl;
+    antrenorLista.Afiseaza_lista_antrenori();
+
+
 }
 void Antrenor::Afiseaza_lista_cursanti()
 {
