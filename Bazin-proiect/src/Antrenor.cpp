@@ -15,15 +15,9 @@ Antrenor::Antrenor(string numeAntrenor,int codAntrenor)
 }
 void Antrenor::Adauga_cursant(string numeCursant)
 {
-    string numeCurs;
-    cout << " Introduceti numele cursantului " << endl;
-    cin >> numeCurs;
-    Cursant cursant(numeCurs);
+    Cursant cursant(numeCursant);
     client.push_back(cursant);
     cout << endl;
-
-
-
 
 }
 void Antrenor::Afiseaza_lista_cursanti()
