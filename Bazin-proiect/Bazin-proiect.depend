@@ -1,6 +1,8 @@
 # depslib dependency file v1.0
-1514144174 source:c:\users\claudia\desktop\bazin-proiect\main.cpp
+1559589877 source:c:\users\claudia\desktop\bazin-proiect\main.cpp
 	<iostream>
+	"Bazin.h"
+	"Antrenor.h"
 
 1559515728 source:c:\users\claudia\desktop\bazin-proiect\src\antrenor.cpp
 	"Antrenor.h"
@@ -16,13 +18,13 @@
 1559516093 c:\users\claudia\desktop\bazin-proiect\include\cursant.h
 	<iostream>
 
-1559516182 source:c:\users\claudia\desktop\bazin-proiect\src\cursant.cpp
+1559516225 source:c:\users\claudia\desktop\bazin-proiect\src\cursant.cpp
 	"Cursant.h"
 	<vector>
 	<string>
 	<iostream>
 
-1559515419 source:c:\users\claudia\desktop\bazin-proiect\src\bazin.cpp
+1559590626 source:c:\users\claudia\desktop\bazin-proiect\src\bazin.cpp
 	"Bazin.h"
 	<iostream>
 	<stdlib.h>
@@ -33,7 +35,7 @@
 	<string>
 	<algorithm>
 
-1559515419 c:\users\claudia\desktop\bazin-proiect\include\bazin.h
+1559586026 c:\users\claudia\desktop\bazin-proiect\include\bazin.h
 	"Antrenor.h"
 	<iostream>
 	<vector>

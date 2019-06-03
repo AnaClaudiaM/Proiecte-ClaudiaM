@@ -41,7 +41,7 @@ void Bazin::Meniu_principal()
         switch (optiune)
         {
             case 1: Adauga_antrenor();break;
-            //case 2: Sterge_antrenor();break;
+            case 2: Sterge_antrenor();break;
             //case 3: Afisare_ore_antrenor();break;
 //            case 4: Adauga_cursant();break;
 //            case 5: Sterge_cursant();break;
@@ -64,7 +64,7 @@ void Bazin::Adauga_antrenor()
   int cod;
     cout << " Introduceti nume antrenor " << endl;
    cin >> nume;
-   cout << " Introduceti cod antrenor " << endl ;
+   cout << "  Introduceti cod antrenor " << endl ;
    cin >> cod;
    Antrenor antrenor(nume,cod);
    listaA.push_back(antrenor);
@@ -75,27 +75,31 @@ void Bazin:: Afiseaza_lista_antrenori()
     unsigned int size = listaA.size();
     for(auto& antr:listaA)
    {
-        cout << " Nume antrenor : " << antr.getNume() ;
-        cout << " Id antrenor : " << antr.getCod() ;
+        cout << " Nume antrenor : " << antr.getNume()<< endl ;
+        cout << " Id antrenor : " << antr.getCod() << endl ;
+        cout << endl;
     }
 }
 
-//void Bazin::Sterge_antrenor()
-//{   int nr_antrenor;
-//    cout << " Lista antrenorilor si codurile lor : " << endl;
-//    Afiseaza_lista_antrenori();
-//    cout << " Introduceti numarul antrenorului de sters " << endl;
-//    cin >> nr_antrenor;
-//   vector<Antrenor>::iterator it;
-//    it = find(listaA.begin(), listaA.end(),nr_antrenor);
-//    if (it != listaA.end())
-//    cout << "Element found in ListaAntrenori: " << *it << endl;
-//    else
-//    cout << "Element not found in ListaAntrenori\n";
-//    listaA.erase(it);
-//
-//
-//}
+void Bazin::Sterge_antrenor()
+{  int nr_antrenor;
+   cout << " Lista antrenorilor si codurile lor : " << endl;
+   cout << endl;
+   Afiseaza_lista_antrenori();
+    cout << " Introduceti id-ul antrenorului de sters " << endl;
+    cin >> nr_antrenor;
+    std::vector<Antrenor>::iterator antr;
+    for(antr=listaA.begin();antr!=listaA.end();++antr)
+    {
+        if(nr_antrenor==antr->getCod())break;
+
+    }
+    if(antr !=listaA.end())
+        listaA.erase(antr);
+
+
+
+}
 
 
 

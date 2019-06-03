@@ -1,9 +1,11 @@
 #include <iostream>
+#include"Bazin.h"
+#include"Antrenor.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    Bazin bazin;
+    bazin.Meniu_principal();
 }
