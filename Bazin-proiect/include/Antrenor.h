@@ -1,6 +1,9 @@
 #ifndef ANTRENOR_H
 #define ANTRENOR_H
 #include<string>
+#include<iostream>
+#include<vector>
+#include<Cursant.h>
 
 
 class Antrenor
@@ -11,7 +14,9 @@ class Antrenor
         virtual ~Antrenor();
         int Afisare_ore_antrenor;
         void Adauga_cursant();
+        void Afiseaza_lista_cursanti();
         void Sterge_cursant();
+
         std::string getNume()
         {
             return nume_antrenor;
@@ -28,7 +33,7 @@ class Antrenor
         std::string nume_antrenor;
         int cod_unic;
         int ore;
-        //std::vector <Cursant>client;
+        std::vector<Cursant>client;
 
 };
 
