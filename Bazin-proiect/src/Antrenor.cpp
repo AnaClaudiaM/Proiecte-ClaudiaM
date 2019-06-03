@@ -13,9 +13,8 @@ Antrenor::Antrenor(string numeAntrenor,int codAntrenor)
     nume_antrenor = numeAntrenor;
     cod_unic = codAntrenor;
 }
-void Antrenor::Adauga_cursant()
+void Antrenor::Adauga_cursant(string numeCursant)
 {
-
     string numeCurs;
     cout << " Introduceti numele cursantului " << endl;
     cin >> numeCurs;
@@ -35,11 +34,6 @@ void Antrenor::Afiseaza_lista_cursanti()
         cout << " Nume cursant : " << antr.getNumeCursant() ;
 
     }
-}
-void Antrenor::Adauga_cursant(string numeCurs)
-{
-    Cursant cursant(numeCurs);
-    client.push_back(cursant);
 }
 
 

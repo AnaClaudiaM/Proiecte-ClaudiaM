@@ -115,7 +115,7 @@ void Bazin::Adauga_cursant()
 
     }
     if(antr !=listaA.end())
-        antr.Adauga_cursant(numeCurs);
+        antr->Adauga_cursant(numeCurs);
 
 
 

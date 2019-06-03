@@ -5,7 +5,7 @@
 	"Antrenor.h"
 	"Cursant.h"
 
-1559597026 source:c:\users\claudia\desktop\bazin-proiect\src\antrenor.cpp
+1559600272 source:c:\users\claudia\desktop\bazin-proiect\src\antrenor.cpp
 	"Antrenor.h"
 	<string>
 	"Cursant.h"
@@ -26,7 +26,7 @@
 	<string>
 	<iostream>
 
-1559594126 source:c:\users\claudia\desktop\bazin-proiect\src\bazin.cpp
+1559600147 source:c:\users\claudia\desktop\bazin-proiect\src\bazin.cpp
 	"Bazin.h"
 	<iostream>
 	<stdlib.h>
