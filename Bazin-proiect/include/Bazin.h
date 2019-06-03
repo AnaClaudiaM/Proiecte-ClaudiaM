@@ -17,6 +17,7 @@ class Bazin
         void Adauga_antrenor();
         void Afiseaza_lista_antrenori();
         void Sterge_antrenor();
+        void Adauga_cursant();
         //void Iesire();
 
     protected:

@@ -9,7 +9,7 @@
 #include<algorithm>
 #include"Cursant.h"
 using namespace std;
-Antrenor cursantAntrenor;
+
 
 
 Bazin::Bazin()
@@ -45,7 +45,7 @@ void Bazin::Meniu_principal()
             case 1: Adauga_antrenor();break;
             case 2: Sterge_antrenor();break;
             //case 3: Afisare_ore_antrenor();break;
-            case 4: cursantAntrenor.Adauga_cursant();break;
+            case 4: Adauga_cursant();break;
 //            case 5: Sterge_cursant();break;
 //            case 6: Vizualizare_cursanti()break;
 //            case 0:
@@ -98,6 +98,24 @@ void Bazin::Sterge_antrenor()
     }
     if(antr !=listaA.end())
         listaA.erase(antr);
+}
+
+void Bazin::Adauga_cursant()
+{   int cautaCod;
+    string numeCurs;
+    cout << " Introduceti numele cursantului " << endl;
+    cin >> numeCurs;
+    Afiseaza_lista_antrenori();
+    cout << " Selectati codul antrenorului dorit ";
+    cin >> cautaCod;
+    std::vector<Antrenor>::iterator antr;
+    for(antr=listaA.begin();antr!=listaA.end();++antr)
+    {
+        if(cautaCod==antr->getCod())break;
+
+    }
+    if(antr !=listaA.end())
+        antr.Adauga_cursant(numeCurs);
 
 
 
