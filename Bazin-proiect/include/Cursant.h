@@ -8,11 +8,12 @@ class Cursant
 {
     public:
         Cursant();
-        Cursant(std::string);
+        Cursant(std::string,std::string);
         std::string getNumeCursant()
         {
             return nume_cursant;
         }
+        std::string getVarstaCursant();
 
         virtual ~Cursant();
 
@@ -20,6 +21,7 @@ class Cursant
 
     private:
         std::string nume_cursant;
+        std::string varsta_cursant;
 };
 
 #endif // CURSANT_H

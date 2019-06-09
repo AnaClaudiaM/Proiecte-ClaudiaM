@@ -28,27 +28,28 @@ void Bazin::Meniu_principal()
     do
     {
         cout << endl;
-        cout << " Optiuni disponibile : \n ";
-        cout << endl;
-        cout << " 1 - Adauga antrenor \n ";
-        cout << " 2 - Sterge antrenor \n ";
-        cout << " 3 - Afisare ore antrenor \n ";
-        cout << " 4 - Adauga cursant \n ";
-        cout << " 5 - Sterge cursant \n ";
-        cout << " 6 - Vizualizare cursanti potentiali\n";
+        cout << " Optiuni disponibile:\n ";
+        cout << " 1 - Adauga antrenor\n ";
+        cout << " 2 - Lista antrenori\n " ;
+        cout << " 3 - Sterge antrenor\n ";
+        cout << " 4 - Afisare ore antrenor\n ";
+        cout << " 5 - Adauga cursant\n ";
+        cout << " 6 - Sterge cursant\n ";
+        cout << " 7 - Vizualizare cursanti potentiali\n ";
         cout << " 0 - Iesire \n ";
-        cout << " Introduceti optiunea dorita :  ";
+        cout << " Introduceti optiunea dorita : numar intreg si pozitiv :  ";
         cin >> optiune;
 
         switch (optiune)
         {
             case 1: Adauga_antrenor();break;
-            case 2: Sterge_antrenor();break;
-            //case 3: Afisare_ore_antrenor();break;
-            case 4: Adauga_cursant();break;
-//            case 5: Sterge_cursant();break;
-//            case 6: Vizualizare_cursanti()break;
-//            case 0:
+            case 2: Afiseaza_lista_antrenori();break;
+            case 3: Sterge_antrenor();break;
+            //case 4: Afisare_ore_antrenor();break;
+            case 5: Adauga_cursant();break;
+            //case 6: Sterge_cursant();break;
+            //case 7: Vizualizare_cursanti()break;
+            case 0:
 //                return 0;
 //                break;
             default:
@@ -64,7 +65,7 @@ void Bazin::Meniu_principal()
 void Bazin::Adauga_antrenor()
 { string nume;
   int cod;
-    cout << " Introduceti nume antrenor " << endl;
+   cout << " Introduceti nume antrenor " << endl;
    cin >> nume;
    cout << "  Introduceti cod antrenor " << endl ;
    cin >> cod;
@@ -80,7 +81,13 @@ void Bazin:: Afiseaza_lista_antrenori()
         cout << " Nume antrenor : " << antr.getNume()<< endl ;
         cout << " Id antrenor : " << antr.getCod() << endl ;
         cout << endl;
+        //Antrenor listaCursanti;
+        //listaCursanti.Afiseaza_lista_cursanti();
     }
+    Antrenor listaCursanti;
+    listaCursanti.Afiseaza_lista_cursanti();
+
+
 }
 
 void Bazin::Sterge_antrenor()

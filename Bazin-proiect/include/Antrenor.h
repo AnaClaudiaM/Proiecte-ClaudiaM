@@ -12,7 +12,7 @@ class Antrenor
         Antrenor();
         Antrenor(std::string,int);
         virtual ~Antrenor();
-        int Afisare_ore_antrenor;
+        int Afisare_ore_antrenor();
         void Adauga_cursant(std::string);
         void Afiseaza_lista_cursanti();
         void Sterge_cursant();
