@@ -5,28 +5,28 @@
 	"Antrenor.h"
 	"Cursant.h"
 
-1560103435 source:c:\users\claudia\desktop\bazin-proiect\src\antrenor.cpp
+1560117212 source:c:\users\claudia\desktop\bazin-proiect\src\antrenor.cpp
 	"Antrenor.h"
 	<string>
 	"Cursant.h"
 	"Bazin.h"
 
-1560110732 c:\users\claudia\desktop\bazin-proiect\include\antrenor.h
+1560117212 c:\users\claudia\desktop\bazin-proiect\include\antrenor.h
 	<string>
 	<iostream>
 	<vector>
 	<Cursant.h>
 
-1560112216 c:\users\claudia\desktop\bazin-proiect\include\cursant.h
+1560112434 c:\users\claudia\desktop\bazin-proiect\include\cursant.h
 	<iostream>
 
-1559516225 source:c:\users\claudia\desktop\bazin-proiect\src\cursant.cpp
+1560114609 source:c:\users\claudia\desktop\bazin-proiect\src\cursant.cpp
 	"Cursant.h"
 	<vector>
 	<string>
 	<iostream>
 
-1560110602 source:c:\users\claudia\desktop\bazin-proiect\src\bazin.cpp
+1560115421 source:c:\users\claudia\desktop\bazin-proiect\src\bazin.cpp
 	"Bazin.h"
 	<iostream>
 	<stdlib.h>

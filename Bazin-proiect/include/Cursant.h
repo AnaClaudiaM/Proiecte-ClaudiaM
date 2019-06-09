@@ -13,7 +13,10 @@ class Cursant
         {
             return nume_cursant;
         }
-        std::string getVarstaCursant();
+        std::string getVarstaCursant()
+        {
+            return varsta_cursant;
+        }
 
         virtual ~Cursant();
 

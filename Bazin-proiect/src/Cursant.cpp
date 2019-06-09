@@ -8,9 +8,9 @@ Cursant::Cursant()
 {
     //ctor
 }
-Cursant::Cursant(string numeCursant,string varsta)
+Cursant::Cursant(string numeCurs,string varsta)
 {
-    nume_cursant=numeCursant;
+    nume_cursant=numeCurs;
     varsta_cursant=varsta;
 }
 

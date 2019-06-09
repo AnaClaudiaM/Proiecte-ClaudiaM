@@ -109,9 +109,34 @@ void Bazin::Sterge_antrenor()
 
 void Bazin::Adauga_cursant()
 {   int cautaCod;
+    int categorie;
     string numeCurs;
+    string varsta;
     cout << " Introduceti numele cursantului " << endl;
     cin >> numeCurs;
+    cout << " Introduceti categoria de varsta " << endl;
+    cout << " Selectati categoria : " << endl;
+    cout << " 1.copil\n";
+    cout << " 2.student\n";
+    cout << " 3.adult\n" ;
+    cout << " 4.pensionar\n";
+    cout << " 0.revenire ecran anterior\n";
+
+    switch(categorie)
+    {
+        case 1 : varsta = " copil "; break;
+        case 2 : varsta = " student "; break;
+        case 3 : varsta = " adult "; break;
+        case 4 : varsta = " pensionar "; break;
+        case 0 : break;
+        default:
+            cout << " Introduceti un numar intre 0 si 4 " << endl;
+    }
+
+    cin >> varsta;
+    //Cursant cursant(numeCurs,varsta);
+    //client.push_back(cursant);
+    cout << endl;
     Afiseaza_lista_antrenori();
     cout << " Selectati codul antrenorului dorit ";
     cin >> cautaCod;
@@ -122,7 +147,7 @@ void Bazin::Adauga_cursant()
 
     }
     if(antr !=listaA.end())
-        antr->Adauga_cursant(numeCurs);
+        antr->Adauga_cursant(numeCurs,varsta);
 
 
 
