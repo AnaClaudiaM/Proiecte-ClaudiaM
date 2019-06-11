@@ -121,6 +121,14 @@ void Bazin::Adauga_cursant()
     cout << " 3.adult\n" ;
     cout << " 4.pensionar\n";
     cout << " 0.revenire ecran anterior\n";
+    //*******************************************************************
+    //Obs : Tu iti bazezi switch-ul pe valoarea unei variabile,categorie,
+    // a carei valoare nu o citesti niciunde !
+    // In schimb citesti din nou, fara sa fie nevoie, o valoare pentru
+    // variabila varsta, desi variabila varsta primeste deja valoarea
+    // potrivita in switch.
+    // Te las pe tine sa descoperi cum sa corectezi :)
+    //********************************************************************
 
     switch(categorie)
     {
