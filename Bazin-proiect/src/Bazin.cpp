@@ -1,6 +1,7 @@
 #include "Bazin.h"
 #include<iostream>
 #include<stdlib.h>
+#include<stdio.h>
 #include<Antrenor.h>
 #include<typeinfo>
 #include<vector>
@@ -26,7 +27,7 @@ void Bazin::Meniu_principal()
     bool input = true;
     int optiune;
     do
-    {
+    {   system("CLS");
         cout << endl;
         cout << " Optiuni disponibile:\n ";
         cout << " 1 - Adauga antrenor\n ";
@@ -39,6 +40,7 @@ void Bazin::Meniu_principal()
         cout << " 0 - Iesire \n ";
         cout << " Introduceti optiunea dorita : numar intreg si pozitiv :  ";
         cin >> optiune;
+        system("CLS");
 
         switch (optiune)
         {
@@ -59,7 +61,10 @@ void Bazin::Meniu_principal()
 
 
         }
+        cin.ignore();
+        cin.get();
         } while(input);
+
 }
 
 void Bazin::Adauga_antrenor()
@@ -81,11 +86,11 @@ void Bazin:: Afiseaza_lista_antrenori()
         cout << " Nume antrenor : " << antr.getNume()<< endl ;
         cout << " Id antrenor : " << antr.getCod() << endl ;
         cout << endl;
-        //Antrenor listaCursanti;
-        //listaCursanti.Afiseaza_lista_cursanti();
+
     }
     Antrenor listaCursanti;
     listaCursanti.Afiseaza_lista_cursanti();
+
 
 
 }
@@ -129,7 +134,7 @@ void Bazin::Adauga_cursant()
     // potrivita in switch.
     // Te las pe tine sa descoperi cum sa corectezi :)
     //********************************************************************
-
+    cin >> categorie;
     switch(categorie)
     {
         case 1 : varsta = " copil "; break;
@@ -138,10 +143,10 @@ void Bazin::Adauga_cursant()
         case 4 : varsta = " pensionar "; break;
         case 0 : break;
         default:
-            cout << " Introduceti un numar intre 0 si 4 " << endl;
+            cout << " Introduceti un numar intre 0 si 4 "<< endl;
     }
 
-    cin >> varsta;
+
     //Cursant cursant(numeCurs,varsta);
     //client.push_back(cursant);
     cout << endl;
