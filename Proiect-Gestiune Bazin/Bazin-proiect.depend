@@ -1,0 +1,181 @@
+# depslib dependency file v1.0
+1559592009 source:c:\users\claudia\desktop\bazin-proiect\main.cpp
+	<iostream>
+	"Bazin.h"
+	"Antrenor.h"
+	"Cursant.h"
+
+1560117212 source:c:\users\claudia\desktop\bazin-proiect\src\antrenor.cpp
+	"Antrenor.h"
+	<string>
+	"Cursant.h"
+	"Bazin.h"
+
+1560117212 c:\users\claudia\desktop\bazin-proiect\include\antrenor.h
+	<string>
+	<iostream>
+	<vector>
+	<Cursant.h>
+
+1560112434 c:\users\claudia\desktop\bazin-proiect\include\cursant.h
+	<iostream>
+
+1560114609 source:c:\users\claudia\desktop\bazin-proiect\src\cursant.cpp
+	"Cursant.h"
+	<vector>
+	<string>
+	<iostream>
+
+1560115421 source:c:\users\claudia\desktop\bazin-proiect\src\bazin.cpp
+	"Bazin.h"
+	<iostream>
+	<stdlib.h>
+	<Antrenor.h>
+	<typeinfo>
+	<vector>
+	<limits>
+	<string>
+	<algorithm>
+	"Cursant.h"
+
+1559597968 c:\users\claudia\desktop\bazin-proiect\include\bazin.h
+	"Antrenor.h"
+	<iostream>
+	<vector>
+
+1560206532 source:c:\users\claudia\desktop\github proiect\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\main.cpp
+	<iostream>
+	"Bazin.h"
+	"Antrenor.h"
+	"Cursant.h"
+
+1560206532 c:\users\claudia\desktop\github proiect\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\include\bazin.h
+	"Antrenor.h"
+	<iostream>
+	<vector>
+
+1560206532 c:\users\claudia\desktop\github proiect\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\include\antrenor.h
+	<string>
+	<iostream>
+	<vector>
+	<Cursant.h>
+
+1560206532 c:\users\claudia\desktop\github proiect\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\include\cursant.h
+	<iostream>
+
+1560293072 source:c:\users\claudia\desktop\github proiect\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\src\antrenor.cpp
+	"Antrenor.h"
+	<string>
+	"Cursant.h"
+	"Bazin.h"
+
+1560206532 source:c:\users\claudia\desktop\github proiect\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\src\cursant.cpp
+	"Cursant.h"
+	<vector>
+	<string>
+	<iostream>
+
+1560293072 source:c:\users\claudia\desktop\github proiect\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\src\bazin.cpp
+	"Bazin.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<Antrenor.h>
+	<typeinfo>
+	<vector>
+	<limits>
+	<string>
+	<algorithm>
+	"Cursant.h"
+
+1560206532 source:c:\users\claudia\desktop\proiect ultima versiune\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\main.cpp
+	<iostream>
+	"Bazin.h"
+	"Antrenor.h"
+	"Cursant.h"
+
+1560723764 c:\users\claudia\desktop\proiect ultima versiune\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\include\bazin.h
+	"Antrenor.h"
+	<iostream>
+	<vector>
+
+1560664007 c:\users\claudia\desktop\proiect ultima versiune\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\include\antrenor.h
+	<string>
+	<iostream>
+	<vector>
+	<Cursant.h>
+
+1560206532 c:\users\claudia\desktop\proiect ultima versiune\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\include\cursant.h
+	<iostream>
+
+1560664007 source:c:\users\claudia\desktop\proiect ultima versiune\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\src\antrenor.cpp
+	"Antrenor.h"
+	<string>
+	"Cursant.h"
+	"Bazin.h"
+
+1560721167 source:c:\users\claudia\desktop\proiect ultima versiune\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\src\bazin.cpp
+	"Bazin.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<Antrenor.h>
+	<typeinfo>
+	<vector>
+	<limits>
+	<string>
+	<algorithm>
+	"Cursant.h"
+
+1560206532 source:c:\users\claudia\desktop\proiect ultima versiune\proiecte-claudiam-master (1)\proiecte-claudiam-master\bazin-proiect\src\cursant.cpp
+	"Cursant.h"
+	<vector>
+	<string>
+	<iostream>
+
+1560206532 source:c:\users\claudia\desktop\proiect-gestiune bazin\main.cpp
+	<iostream>
+	"Bazin.h"
+	"Antrenor.h"
+	"Cursant.h"
+
+1560754310 c:\users\claudia\desktop\proiect-gestiune bazin\include\bazin.h
+	"Antrenor.h"
+	<iostream>
+	<vector>
+
+1560664007 c:\users\claudia\desktop\proiect-gestiune bazin\include\antrenor.h
+	<string>
+	<iostream>
+	<vector>
+	<Cursant.h>
+
+1560206532 c:\users\claudia\desktop\proiect-gestiune bazin\include\cursant.h
+	<iostream>
+
+1560664007 source:c:\users\claudia\desktop\proiect-gestiune bazin\src\antrenor.cpp
+	"Antrenor.h"
+	<string>
+	"Cursant.h"
+	"Bazin.h"
+
+1560754310 source:c:\users\claudia\desktop\proiect-gestiune bazin\src\bazin.cpp
+	"Bazin.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	<Antrenor.h>
+	<typeinfo>
+	<vector>
+	<limits>
+	<string>
+	<algorithm>
+	"Cursant.h"
+	<cstdlib>
+
+1560206532 source:c:\users\claudia\desktop\proiect-gestiune bazin\src\cursant.cpp
+	"Cursant.h"
+	<vector>
+	<string>
+	<iostream>
+
