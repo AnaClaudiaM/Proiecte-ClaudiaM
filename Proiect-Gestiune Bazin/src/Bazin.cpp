@@ -145,7 +145,7 @@ void Bazin::Adauga_cursant()
     cout << " Introduceti codul antrenorului : ";
     cin >> cautaCod;
     cout << " " ;
-    cout << " Antrenorul cu codul " << cautaCod << " are urmatorii cursanti :"<< endl;
+
     std::vector<Antrenor>::iterator antr;
     for(antr=listaA.begin();antr!=listaA.end();++antr)
     {
@@ -160,8 +160,27 @@ void Bazin::Adauga_cursant()
 }
 
 void Bazin::Afisare_cursant_antrenor()
-{
+{   int selecCod;
     Afiseaza_lista_antrenori();
+    cout << " Selectati cod antrenor " << endl;
+    cin >> selecCod;
+    cout << " Antrenorul cu codul " << selecCod << " are urmatorii cursanti :"<< endl;
+    std::vector<Antrenor>::iterator antr;
+    for(antr=listaA.begin();antr!=listaA.end();++antr)
+    {
+        if(selecCod==antr->getCod())break;
+
+    }
+    if(antr !=listaA.end())
+        {
+            antr->Afiseaza_lista_cursanti();
+
+        }
+
+
+
+
+
 }
 
 
